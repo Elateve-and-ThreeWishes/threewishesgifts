@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Three Wishes Gifts &mdash; Digital Musts for Busy Lives</title>
-<meta name="description" content="Clean, beautifully designed digital planners, journals and invitation suites from a mum-and-daughter team. Shop budget planners, meal planners, study planners and celebration suites." />
+<meta name="description" content="Clean, beautifully designed digital planners, journals and invitation suites from a mum-and-daughter team. Shop Christmas gifts and ornaments, budget planners, meal planners, study planners and celebration suites." />
 <meta name="theme-color" content="#f6f1e7" />
 <link rel="icon" type="image/jpeg" href="assets/favicon-64.jpg" />
 <link rel="apple-touch-icon" href="assets/favicon-180.jpg" />
@@ -19,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="assets/styles.css?v=202610011532" />
+<link rel="stylesheet" href="assets/styles.css?v=202611081514" />
 </head>
 <body>
 
@@ -57,21 +57,21 @@
 
 <div class="marquee-wrap" aria-hidden="true">
   <div class="marquee-track">
-    <span>✦ Budget Planners</span><span>✦ Meal Planners</span><span>✦ Celebrations &amp; Invites</span><span>✦ Study &amp; School Planners</span><span>✦ Journals</span><span>✦ Business Flyers</span>
-    <span>✦ Budget Planners</span><span>✦ Meal Planners</span><span>✦ Celebrations &amp; Invites</span><span>✦ Study &amp; School Planners</span><span>✦ Journals</span><span>✦ Business Flyers</span>
+    <span>✦ Xmas Shop</span><span>✦ Budget Planners</span><span>✦ Meal Planners</span><span>✦ Celebrations &amp; Invites</span><span>✦ Study &amp; School Planners</span><span>✦ Journals</span><span>✦ Business Flyers</span>
+    <span>✦ Xmas Shop</span><span>✦ Budget Planners</span><span>✦ Meal Planners</span><span>✦ Celebrations &amp; Invites</span><span>✦ Study &amp; School Planners</span><span>✦ Journals</span><span>✦ Business Flyers</span>
   </div>
 </div>
 
 <section style="background:var(--cream-deep);">
   <div class="container">
     <div class="section-head reveal">
-      <span class="eyebrow">🎃 New for October</span>
-      <h2>Halloween Favourites</h2>
-      <p>Party invites, countdown planners and glam decor &mdash; fresh in the shop for spooky season.</p>
+      <span class="eyebrow">🎄 New for Christmas</span>
+      <h2>The Xmas Shop</h2>
+      <p>Burgundy toile ceramic ornaments, personalised keepsakes, a cheeky festive sweatshirt and a hyperlinked Christmas planner &mdash; fresh in the shop for the holidays.</p>
     </div>
-    <div class="product-grid" id="halloween-grid"></div>
+    <div class="product-grid" id="xmas-grid"></div>
     <div class="center reveal" style="margin-top:48px;">
-      <a class="btn btn-outline" href="shop.html#Halloween">See All Halloween Designs</a>
+      <a class="btn btn-outline" href="shop.html#Xmas%20Shop">See the Whole Xmas Shop</a>
     </div>
   </div>
 </section>
@@ -124,7 +124,7 @@
       <h2>Something for every part of your week</h2>
     </div>
     <div class="cat-grid">
-      <a class="cat-tile reveal" href="shop.html#Halloween"><span class="cat-emoji">🎃</span><h3>Halloween</h3><span class="count">6 designs</span></a>
+      <a class="cat-tile reveal" href="shop.html#Xmas%20Shop"><span class="cat-emoji">🎄</span><h3>Xmas Shop</h3><span class="count">10 designs</span></a>
       <a class="cat-tile reveal" href="shop.html#Budget%20Planners"><span class="cat-emoji">💰</span><h3>Budget Planners</h3><span class="count">9 designs</span></a>
       <a class="cat-tile reveal" href="shop.html#Meal%20Planners"><span class="cat-emoji">🍽️</span><h3>Meal Planners</h3><span class="count">4 designs</span></a>
       <a class="cat-tile reveal" href="shop.html#Study%20%26%20School%20Planners"><span class="cat-emoji">📚</span><h3>Study &amp; School Planners</h3><span class="count">6 designs</span></a>
@@ -159,7 +159,7 @@
       <div class="sky" data-stars="12" aria-hidden="true"></div>
       <div style="position:relative;z-index:2;">
         <h2>Ready to feel a little more on top of things?</h2>
-        <p>Every product is an instant digital download &mdash; ready to use the moment you buy, in Canva, GoodNotes, or Procreate.</p>
+        <p>Digital products are instant downloads, ready the moment you buy, in Canva, GoodNotes or Procreate. Our Christmas ornaments and sweatshirts are ordered securely through Etsy.</p>
         <a class="btn btn-primary" href="shop.html">Explore the Shop</a>
       </div>
     </div>
@@ -198,14 +198,14 @@
   </div>
 </footer>
 
-<script src="assets/products.js?v=202610011532"></script>
+<script src="assets/products.js?v=202611081514"></script>
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
   const featured = PRODUCTS.filter(p => p.category === "Meal Planners");
   document.getElementById("featured-grid").innerHTML = featured.map(twProductCardHTML).join("");
-  const halloween = PRODUCTS.filter(p => p.category === "Halloween").slice(0, 4);
-  document.getElementById("halloween-grid").innerHTML = halloween.map(twProductCardHTML).join("");
+  const xmas = PRODUCTS.filter(p => p.category === "Xmas Shop").slice(0, 4);
+  document.getElementById("xmas-grid").innerHTML = xmas.map(twProductCardHTML).join("");
 </script>
-<script src="assets/script.js?v=202610011532"></script>
+<script src="assets/script.js?v=202611081514"></script>
 </body>
 </html>

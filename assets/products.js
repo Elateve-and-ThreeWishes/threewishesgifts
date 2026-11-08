@@ -3,6 +3,76 @@
 
 const PRODUCTS = [
   {
+    title: "Christmas Planner Printable, Hyperlinked Digital PDF, Goodnotes iPad Holiday Organizer, A4 A5 US Letter, Classic Size",
+    category: "Xmas Shop",
+    price: 7.99,
+    img: "assets/products/xmas-planner-printable.jpg",
+    url: "https://www.etsy.com/listing/4600837664/christmas-planner-printable-hyperlinked"
+  },
+  {
+    title: "Funny Christmas Sweatshirt, Vintage Retro Holiday Crewneck, Comfort Colors Garment-Dyed Xmas Sweater, Smiles Collection",
+    category: "Xmas Shop",
+    price: 42.99,
+    img: "assets/products/xmas-funny-sweatshirt.jpg",
+    url: "https://www.etsy.com/listing/4612017939/funny-christmas-sweatshirt-vintage-retro"
+  },
+  {
+    title: "First Christmas as a Family Personalized Ornament, Heritage Tartan Ceramic Decoration, Custom Name Tree Ornament, New Family Gift",
+    category: "Xmas Shop",
+    price: 18.95,
+    img: "assets/products/xmas-first-christmas-ornament.jpg",
+    url: "https://www.etsy.com/listing/4607646252/first-christmas-as-a-family-personalized"
+  },
+  {
+    title: "Snow Leopard Christmas Ornament, Burgundy Toile Ceramic Decoration, Winter Animal Tree Ornament, Burgundy and White Christmas Gift",
+    category: "Xmas Shop",
+    price: 16.95,
+    img: "assets/products/xmas-snow-leopard-ornament.jpg",
+    url: "https://www.etsy.com/listing/4608336602/snow-leopard-christmas-ornament-burgundy"
+  },
+  {
+    title: "Stag Christmas Ornament, Burgundy Toile Ceramic Decoration, Woodland Deer Tree Ornament, Burgundy and White Christmas Gift",
+    category: "Xmas Shop",
+    price: 16.95,
+    img: "assets/products/xmas-stag-ornament.jpg",
+    url: "https://www.etsy.com/listing/4608339420/stag-christmas-ornament-burgundy-toile"
+  },
+  {
+    title: "Stocking Christmas Ornament, Burgundy Toile Ceramic Decoration, Festive Stocking Tree Ornament, Burgundy and White Christmas Gift",
+    category: "Xmas Shop",
+    price: 16.95,
+    img: "assets/products/xmas-stocking-ornament.jpg",
+    url: "https://www.etsy.com/listing/4608340026/stocking-christmas-ornament-burgundy"
+  },
+  {
+    title: "Tree Christmas Ornament, Burgundy Toile Ceramic Decoration, Evergreen Tree Ornament, Burgundy and White Christmas Gift",
+    category: "Xmas Shop",
+    price: 16.95,
+    img: "assets/products/xmas-tree-ornament.jpg",
+    url: "https://www.etsy.com/listing/4608321639/tree-christmas-ornament-burgundy-toile"
+  },
+  {
+    title: "Nutcracker Christmas Ornament, Burgundy Toile Ceramic Decoration, Classic Nutcracker Tree Ornament, Burgundy and White Christmas Gift",
+    category: "Xmas Shop",
+    price: 16.95,
+    img: "assets/products/xmas-nutcracker-ornament.jpg",
+    url: "https://www.etsy.com/listing/4608322263/nutcracker-christmas-ornament-burgundy"
+  },
+  {
+    title: "Star Christmas Ornament, Burgundy Toile Ceramic Decoration, Celestial Star Tree Ornament, Burgundy and White Christmas Gift",
+    category: "Xmas Shop",
+    price: 16.95,
+    img: "assets/products/xmas-star-ornament.jpg",
+    url: "https://www.etsy.com/listing/4608341958/star-christmas-ornament-burgundy-toile"
+  },
+  {
+    title: "Wedding Anniversary Personalized Ornament, 30th 40th 50th, Heritage Tartan Ceramic Decoration, Custom Names Tree Ornament, Anniversary Gift",
+    category: "Xmas Shop",
+    price: 18.95,
+    img: "assets/products/xmas-anniversary-ornament.jpg",
+    url: "https://www.etsy.com/listing/4607646536/30th-wedding-anniversary-personalized"
+  },
+  {
     title: "She Said Yes Bridal Shower Invitation Suite, Editable Canva Template Bundle",
     category: "Celebrations & Invites",
     price: 3.39, was: 6.78,
@@ -15,48 +85,6 @@ const PRODUCTS = [
     price: 2.78, was: 5.57,
     img: "assets/products/party-invite-wine.jpg",
     url: "https://www.etsy.com/listing/4561767649/party-invite-template-editable-wine"
-  },
-  {
-    title: "Halloween Kids Party Invitation Bundle | 4 Editable Invites + 4 Printable Coloring Placemats",
-    category: "Halloween",
-    price: 3.93, was: 7.87,
-    img: "assets/products/halloween-party.jpg",
-    url: "https://www.etsy.com/listing/4575741529/halloween-kids-party-invitation-bundle-4"
-  },
-  {
-    title: "Gothic Fun Halloween Party Pack for Adults, Editable Invitations, Murder Mystery Game Pack",
-    category: "Halloween",
-    price: 7.86, was: 15.72,
-    img: "assets/products/gothic-halloween-party-pack.jpg",
-    url: "https://www.etsy.com/listing/4581991245/gothic-fun-halloween-party-pack-for"
-  },
-  {
-    title: "Cute Halloween Party Bundle for Adults, Editable Invitations & Menu Cards, Party Games",
-    category: "Halloween",
-    price: 9.67, was: 19.35,
-    img: "assets/products/cute-halloween-party-bundle.jpg",
-    url: "https://www.etsy.com/listing/4584990719/cute-halloween-party-bundle-for-adults"
-  },
-  {
-    title: "Halloween Glam Girly Wall Art Set of 6, Coquette Witch Vibes, Home Decor Printables",
-    category: "Halloween",
-    price: 6.04, was: 12.09,
-    img: "assets/products/halloween-glam-wall-art.jpg",
-    url: "https://www.etsy.com/listing/4582679784/halloween-glam-girly-wall-art-set-of-6"
-  },
-  {
-    title: "Halloween Planner Bumper Bundle, 30 Day Template, Party Invites, Kids Colouring, Bonus Stickers",
-    category: "Halloween",
-    price: 7.86, was: 15.72,
-    img: "assets/products/halloween-bumper-bundle.jpg",
-    url: "https://www.etsy.com/listing/4578066312/halloween-planner-bumper-bundle-30-day"
-  },
-  {
-    title: "Halloween Countdown Planner, 30-Day Digital & Print Prep Guide, Costume Decor Candy Party PDF",
-    category: "Halloween",
-    price: 3.39, was: 6.78,
-    img: "assets/products/halloween-countdown-planner.jpg",
-    url: "https://www.etsy.com/listing/4572936173/halloween-countdown-planner-30-day"
   },
   {
     title: "Editable Bar Opening Flyer Template, Canva Gastrobar Poster",
@@ -238,11 +266,11 @@ const PRODUCTS = [
 const ETSY_SHOP_URL = "https://www.etsy.com/shop/ThreeWishesGiftsShop";
 
 function twProductCardHTML(p) {
-  const pct = Math.round((1 - p.price / p.was) * 100);
+  const pct = p.was ? Math.round((1 - p.price / p.was) * 100) : 0;
   return `
     <article class="product-card reveal">
       <a class="product-thumb" href="${p.url}" target="_blank" rel="noopener">
-        <span class="badge-off">-${pct}%</span>
+        ${pct ? `<span class="badge-off">-${pct}%</span>` : ""}
         <img src="${p.img}" alt="${p.title}" loading="lazy" />
       </a>
       <div class="product-body">
@@ -250,7 +278,7 @@ function twProductCardHTML(p) {
         <h3 class="product-title">${p.title}</h3>
         <div class="product-price">
           <span class="price-now">&euro;${p.price.toFixed(2)}</span>
-          <span class="price-was">&euro;${p.was.toFixed(2)}</span>
+          ${p.was ? `<span class="price-was">&euro;${p.was.toFixed(2)}</span>` : ""}
         </div>
         <a class="btn btn-primary btn-sm" href="${p.url}" target="_blank" rel="noopener">Shop on Etsy</a>
       </div>
