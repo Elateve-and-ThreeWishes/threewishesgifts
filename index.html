@@ -19,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="assets/styles.css?v=202611081514" />
+<link rel="stylesheet" href="assets/styles.css?v=202611081519" />
 </head>
 <body>
 
@@ -72,6 +72,40 @@
     <div class="product-grid" id="xmas-grid"></div>
     <div class="center reveal" style="margin-top:48px;">
       <a class="btn btn-outline" href="shop.html#Xmas%20Shop">See the Whole Xmas Shop</a>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--cream);" id="books">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">📚 Now on Amazon</span>
+      <h2>Find the Killer: murder mystery puzzle books</h2>
+      <p>Two complete cases, one fair answer each. Read the clues, work the elimination, and name the killer.</p>
+    </div>
+    <div class="book-grid">
+      <article class="book-card reveal">
+        <span class="eyebrow">Book 1 of 2 &middot; Find the Killer Series</span>
+        <h3>The Blackwater Ledger</h3>
+        <p class="book-tag">Sixty-five years of guests. One killer in the book.</p>
+        <p>Eleanor Voss kept every guest in one ledger and every complaint in a shoebox under the desk. The book gives you the clues; you find the killer.</p>
+        <p class="book-meta">Paperback &middot; J.M. Ashcombe</p>
+        <div class="book-actions">
+          <a class="btn btn-primary" href="https://www.amazon.com/dp/B0HN4JFQQZ" target="_blank" rel="noopener">Buy on Amazon</a>
+          <a class="btn btn-outline" href="publishing/#casebook">Free Casebook extras</a>
+        </div>
+      </article>
+      <article class="book-card reveal">
+        <span class="eyebrow">Book 2 of 2 &middot; Find the Killer Series</span>
+        <h3>Cold Case: Christmas</h3>
+        <p class="book-tag">5,000 suspects. 80 clues. One killer who never left.</p>
+        <p>Five linked Christmas murders, five case files and fifty-seven years of names. A logic and elimination whodunit for adults: solve each case, then find the one killer connecting them all.</p>
+        <p class="book-meta">Paperback &middot; 192 pages &middot; J.M. Ashcombe</p>
+        <div class="book-actions">
+          <a class="btn btn-primary" href="https://www.amazon.com/dp/B0HQJVK4QD" target="_blank" rel="noopener">Buy on Amazon</a>
+          <a class="btn btn-outline" href="publishing/#casebook">Free Casebook extras</a>
+        </div>
+      </article>
     </div>
   </div>
 </section>
@@ -198,7 +232,7 @@
   </div>
 </footer>
 
-<script src="assets/products.js?v=202611081514"></script>
+<script src="assets/products.js?v=202611081519"></script>
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
   const featured = PRODUCTS.filter(p => p.category === "Meal Planners");
@@ -206,6 +240,6 @@
   const xmas = PRODUCTS.filter(p => p.category === "Xmas Shop").slice(0, 4);
   document.getElementById("xmas-grid").innerHTML = xmas.map(twProductCardHTML).join("");
 </script>
-<script src="assets/script.js?v=202611081514"></script>
+<script src="assets/script.js?v=202611081519"></script>
 </body>
 </html>

@@ -21,7 +21,7 @@ Static site for [threewishesgifts.com](https://threewishesgifts.com) — a mum-a
 
 | Path | Purpose |
 | --- | --- |
-| `publishing/index.html` | Public `/publishing`: spoiler-free Casebook sign-up plus a section per book (QR codes in the books point here) |
+| `publishing/index.html` | Public `/publishing`: "Get the books" Amazon buy cards, spoiler-free Casebook sign-up and a section per book (QR codes in the books point here) |
 | `solve-blackwater/index.html` | Password-gated debrief for The Blackwater Ledger. **Generated** |
 | `solve-coldcase/index.html` | Password-gated debrief for Cold Case: Christmas. **Generated** |
 | `solve/index.html` | Old address, redirects to `/solve-blackwater` |

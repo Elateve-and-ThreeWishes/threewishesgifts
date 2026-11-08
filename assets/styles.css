@@ -488,3 +488,30 @@ section { position: relative; padding: 110px 0; }
 @media (max-width: 460px) {
   .product-grid, .feature-grid, .cat-grid { grid-template-columns: 1fr; }
 }
+
+/* books (Find the Killer series) */
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.book-card {
+  display: flex; flex-direction: column;
+  background: var(--white);
+  border-left: 4px solid var(--coral);
+  border-radius: var(--radius-lg);
+  padding: 38px 34px;
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+.book-card:hover { transform: translateY(-6px); box-shadow: var(--shadow); }
+.book-card h3 { font-size: 1.5rem; margin: 6px 0 10px; }
+.book-card .book-tag { font-weight: 600; color: var(--ink); margin-bottom: 12px; }
+.book-card p { color: var(--charcoal); opacity: 0.85; font-size: 0.98rem; }
+.book-card .book-meta { margin-top: 14px; font-size: 0.85rem; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.65; }
+.book-card .book-actions { margin-top: auto; padding-top: 24px; display: flex; flex-wrap: wrap; gap: 12px; }
+@media (max-width: 760px) {
+  .book-grid { grid-template-columns: 1fr; }
+}
